@@ -13,7 +13,7 @@ public class Main {
     }
 
     public static boolean isPermutation(String str1, String str2) {
-        if (isStringAreEmpty(str1, str2)) {
+        if (isStringsAreEmpty(str1, str2)) {
             return false;
         }
         else {
@@ -36,7 +36,7 @@ public class Main {
         }
     }
 
-    private static boolean isStringAreEmpty(String str1, String str2) {
+    private static boolean isStringsAreEmpty(String str1, String str2) {
         return str1 == null || str2 == null || str1.length() == 0 || str2.length() == 0;
     }
 
